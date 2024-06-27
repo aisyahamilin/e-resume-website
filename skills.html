@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<link rel="stylesheet" href="style.css" >
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+
+     background-image: url(PICTURE/background2); }
+
+</style>
+
+<section>
+
+  <style>
+    * {box-sizing: border-box}
+  
+    .container {
+            width: 60%; /* Set a fixed width less than 100% */
+            margin: 10px auto; /* Center the container */
+            background-color: #f3eeee;
+        }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+.Communication{width: 90%; background-color: #f44336;}
+.Teamwork{width: 85%; background-color: #2196F3;}
+.Timemanagement{width: 90%; background-color: #439139;}
+.Leadership{width: 80%; background-color: #9c1f4f;}
+.ITandtechnology{width: 75%; background-color: #faa21d;}
+
+
+.Malay{width: 95%; background-color: #f44336;}
+.English{width: 75%; background-color: #2196F3;}
+.Arab{width: 60%; background-color: #439139;}
+  
+  </style>
+
+</section>
+
+</head>
+<body>
+
+  <div class="header">
+
+    <div class="logo">
+      <a href="student.html">
+      <img src="PICTURE/amilin_logo-removebg-preview.png" alt="logo" style="height: 150px; width: 400px;">
+      </a>
+  </div>
+</div>
+
+<div class="navbar">
+  <a href="student.html">STUDENT</a>
+  <a href="home.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="education.html">EDUCATION</a>
+  <a href="skills.html">SKILLS</a>
+  <a href="video.html">VIDEO</a>
+</div>
+
+
+<h1>MY SKILLS</h1>
+
+<p>COMMUNICATION</p>
+<div class="container">
+  <div class="skills Communication">90%</div>
+</div>
+
+<p>TEAMWORK</p>
+<div class="container">
+  <div class="skills Teamwork">85%</div>
+</div>
+
+<p>TIME MANAGEMENT</p>
+<div class="container">
+  <div class="skills Timemanagement">90%</div>
+</div>
+
+<p>LEADERSHIP</p>
+<div class="container">
+  <div class="skills Leadership">80%</div>
+</div>
+
+<p>IT AND TECHNOLOGY</p>
+<div class="container">
+  <div class="skills ITandtechnology">75%</div>
+</div>
+
+<h1>LANGUAGE SKILLS</h1>
+
+<p>MALAY</p>
+<div class="container">
+  <div class="skills Malay">95%</div>
+</div>
+
+<p>ENGLISH</p>
+<div class="container">
+  <div class="skills English">75%</div>
+</div>
+
+<p>ARAB</p>
+<div class="container">
+  <div class="skills Arab">60%</div>
+</div>
+
+<div class="footer">
+  <p>&#169 Copyright Nur Aisyah Amilin Binti Mohd Adnan :Last updated: <span id="update-date"></span></p>
+</div>    
+
+<script>
+  document.getElementById("update-date").innerText = new Date().toLocaleDateString();
+</script>
+</body>
+</html>
